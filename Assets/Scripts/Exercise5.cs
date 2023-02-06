@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class Exercise5 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public int[] n;
+
+    
+
+    private void Start()
     {
+        for(int x=0; x< n.Length;x++)
+        {
+          Debug.Log
+                
+          ($"{n[0]}+{n[1]}+{n[2]}+{n[3]}+{n[4]}" +
+           $"= { n[0] + n[1] + n[2] + n[3]+n[4]}");
+        }
+
         
+    
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+
+
+
+
+
 }

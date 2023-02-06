@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class Exercise3 : MonoBehaviour
 {
-    public int n =10;
+     int n =10;
     void Start()
     {
-        for (int i = n; n <= 0; i -= n)
+        for (int i = n; i >= 0; i -= 1)
         {
-            Debug.Log(n);
-
-
+            Debug.Log(i);
         }
-
     }
 }
