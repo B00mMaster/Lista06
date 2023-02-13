@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Exercise3 : MonoBehaviour
 {
-     int n =10;
+     public int n =10;
     void Start()
     {
         for (int i = n; i >= 0; i -= 1)
